@@ -1,0 +1,11 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Rubik' , sans-serif;
+}
+
+@media only screen and (max-width : 765px){
+    body{
+        max-width: 100%;
+        margin-left: 4px;
+    }
+}

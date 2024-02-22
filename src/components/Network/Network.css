@@ -1,0 +1,36 @@
+#network-container {
+  margin: 60px auto;
+  max-width: 1140px;
+}
+
+#network-header h2 {
+  max-width: 100%;
+  width: 383.4px;
+}
+
+#network-header p {
+  margin-top: 20px;
+  max-width: 100%; 
+  width: 555px;
+}
+
+.network-image-section {
+  max-width: 100%; 
+  width: 1060px;
+  margin: 60px auto;
+}
+
+.network-image-section img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 765px) {
+  #network-container {
+    width: 95%;
+  }
+
+  .network-image-section {
+    width: 100%; 
+    margin: 40px auto;
+  }
+}

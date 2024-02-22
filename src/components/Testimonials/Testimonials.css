@@ -1,0 +1,138 @@
+#testimonials-section {
+  margin: 60px;
+}
+
+#testimonials-head-section h2 {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.testimonial-para p {
+  padding: 15px;
+}
+#testimonials-head-section p {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#testimonials-card-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 20px auto;
+}
+
+#testimonials-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.test-card {
+  border-radius: 10px;
+  border: 2px solid #dddddd;
+  overflow: hidden;
+  flex: 1;
+}
+
+.testimonial-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonial-head {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-head div h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0b132a;
+}
+
+.testimonial-head div p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f5665;
+}
+
+.testimonial-rating {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-rating p {
+  margin-right: 5px;
+}
+
+.testimonial-rating img {
+  width: 16px;
+  height: 16px;
+}
+
+#lr-navigation-section {
+  margin: 35px 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#lr-navigation-section button {
+  background: #ffffff;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#lr-navigation-section button:hover {
+  background: #f0f0f0;
+}
+
+#lr-navigation-section button:focus {
+  outline: none;
+}
+
+#lr-navigation-section button svg {
+  color: #f53838;
+}
+
+#testimonials-card .c-active {
+  border: 2px solid #f53838;
+}
+
+#lr-navigation-section .dot-active {
+  background-color: #f53838;
+}
+
+@media only screen and (min-width: 768px) {
+  .test-card {
+    max-width: 380px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #testimonials-card {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .test-card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+
+  #lr-navigation-section button {
+    width: 70px;
+    height: 70px;
+  }
+}
